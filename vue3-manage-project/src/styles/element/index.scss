@@ -1,0 +1,6 @@
+// 重写配色
+@forward 'element-plus/theme-chalk/src/common/var.scss' with ($colors: ('primary': ('base': #0dc06c),
+        'success': ('base': #25c479),
+        'warning': ('base': #ffa602),
+        'danger': ('base': #ee7b55),
+        'error': ('base': #d31f1f)));
